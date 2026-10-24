@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Reconstituer les octets manquants et contradictoires des fragments', 'en': 'Reconstruct missing and conflicting bytes across fragments', 'es': 'Reconstruir bytes ausentes y contradictorios entre fragmentos'}

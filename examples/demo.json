@@ -1,0 +1,15 @@
+{
+  "total_bytes": 6,
+  "fragments": [
+    {
+      "id": "a",
+      "offset": 0,
+      "hex": "616263"
+    },
+    {
+      "id": "b",
+      "offset": 2,
+      "hex": "636465"
+    }
+  ]
+}

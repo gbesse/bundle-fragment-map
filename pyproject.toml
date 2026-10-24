@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bundle-fragment-map"
+version = "0.1.0a1"
+description = "FR: Reconstituer les octets manquants et contradictoires des fragments | EN: Reconstruct missing and conflicting bytes across fragments | ES: Reconstruir bytes ausentes y contradictorios entre fragmentos"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+bundle-fragment-map = "bundle_fragment_map.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["bundle_fragment_map*"]
